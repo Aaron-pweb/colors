@@ -16,19 +16,16 @@ export const metadata: Metadata = {
   title: "Colors — nice palettes",
   description:
     "Browse nearly 1000 hand-picked color palettes from ColourLovers. Click any swatch to copy its hex.",
-  metadataBase: new URL("https://colors.robi.work"),
+  metadataBase: new URL("https://Aaron-pweb.github.io/colors"),
   openGraph: {
     title: "Colors — nice palettes",
     description: "Browse nearly 1000 hand-picked color palettes.",
-    url: "https://colors.robi.work",
+    url: "https://Aaron-pweb.github.io/colors",
     type: "website",
   },
   icons: {
-    icon: [
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-    ],
-    apple: { url: "/apple-touch-icon.png", sizes: "180x180" },
+    icon: "/favicon.svg",
+    apple: "/apple-touch-icon.png",
   },
   manifest: "/site.webmanifest",
 };
